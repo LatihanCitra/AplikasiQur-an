@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NunSukundanTanwin"
+    android:orientation="vertical"
+
+    android:background="#FDF6F0">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hukum Nun Sukun dan Tanwin"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/BtnIzhar"
+       android:background="#FCD8D4"
+       android:layout_marginLeft="17dp"
+       android:text="Izah"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnIdghamBighunnah"
+        android:background="#FCD8D4"
+        android:layout_marginLeft="17dp"
+        android:text="Idgham Bighunnah"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnIdghamBiilagunnah"
+        android:background="#FCD8D4"
+        android:layout_marginLeft="17dp"
+        android:text="Idgham Bilagunnah"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnIqlab"
+        android:background="#FCD8D4"
+        android:layout_marginLeft="17dp"
+        android:text="Iqlab"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnIkhfa"
+        android:background="#FCD8D4"
+        android:layout_marginLeft="17dp"
+        android:text="Ikhfa"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

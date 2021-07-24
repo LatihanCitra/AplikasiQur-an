@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FDF6F0">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/BtnHijaiyyah"
+                android:layout_marginLeft="10dp"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:text="Huruf Hijaiyyah"
+                android:textSize="20dp"
+                android:background="#FCD8D4"/>
+            <Button
+                android:id="@+id/BtnNunSukun"
+                android:layout_marginLeft="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:textSize="20dp"
+                android:background="#FCD8D4"
+                android:text="Hukum Nun Sukun dan  Tanwin"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="#FCD8D4"
+                android:id="@+id/BtnQolqolah"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="20dp"
+                android:text="Qolqolah"/>
+            <Button
+                android:background="#FCD8D4"
+                android:id="@+id/BtnMimSukun"
+                android:layout_marginLeft="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:textSize="20dp"
+                android:text="Mim Sukun"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="#FCD8D4"
+                android:id="@+id/BtnMad"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="20dp"
+                android:text="Mad"/>
+            <Button
+                android:background="#FCD8D4"
+                android:id="@+id/BtnQuis"
+                android:layout_marginLeft="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:textSize="20dp"
+                android:text="Quis"/>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
